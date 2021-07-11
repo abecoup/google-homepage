@@ -28,3 +28,23 @@
 #account {
     margin-top: 2px;
 }
+
+#center {
+    position: absolute;
+    top: 40%;
+    transform: translate(0, -50%);
+    width: 100%;
+    height: 50%;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+#google-logo {
+    width: 275px;
+    height: auto;
+    position: relative;
+    align-self: center;
+    margin-top: 114px;
+    margin-right: 17px;
+}
