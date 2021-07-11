@@ -1,20 +1,30 @@
 #navbar {
-    display: flex;
-    flex-direction: row;
-    background-color: beige;
-    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
 }
 
 #leftnav {
-    display: flex;
+    float: left;
     font-size: 14px;
     font-family: Roboto;
-    align-content: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    width: 128px;
 }
 
 #rightnav {
-    display: flex;
+    float: right;
     font-size: 13px;
-    font-family: arial,sans-serif;
-    align-content: flex-end;
+    font-family: arial, sans-serif;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#apps {
+    margin-top: 10px;
+}
+
+#account {
+    margin-top: 2px;
 }
