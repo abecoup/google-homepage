@@ -57,16 +57,41 @@
 
 #search-input {
     width: 584px;
-    height: 45px;
+    height: 46px;
     border-radius: 24px;
     outline: none;
     border: 1px solid #dfe1e5;
     background: url(http://www.w3.org/2000/svg);
     background-repeat: no-repeat;
     background-position: left center;
-    text-indent: 30px;
+    text-indent: 45px;
+    font-size: 16px;
+    font: Arial;
 }
 
-d {
-    color: #9aa0a6;
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(data:iamge/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAIAAAArNqveAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA8UlEQVRIie3UQQqCQBTG8Tet9AZqZwtBkqSuk2UlQnSBEK9TbpyZTuBzZ4s24vhyJtsEfStB/SHMH1nbtvDtzb4u/tEBlAsZJyliQ72D2MRJyoU0QK95cbuXu8Owi9jsDuntXl7zwgAN/IXnOlxI1X2JXEjPdQJ/YYDatrWJQtXtipsotG2LQhkVP2ITJychH3PPXa+WAKApvkN7LgBoiiNo1wUATRF0OmWM9S4mod2ToXowQ3tnPdiDGarWQ3Wmi1I96rsDaHa+UPV03ex8IT+1VVZxsd0f6xrVW6/VNW73x4oL6oGRTj/bT/+k/+jEPQExvBpG2smKtgAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    margin-right: 65px;
+}
+
+#search-icon {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+#voice-icon {
+    position: absolute;
+    margin-left: 547px;
+    margin-top: 12px;
 }
