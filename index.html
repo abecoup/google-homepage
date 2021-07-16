@@ -3,7 +3,9 @@
 <header>
 
     <!-- Stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
 
@@ -22,10 +24,14 @@
         </div>
 
         <div id="rightnav">
-            <p id="gmail">Gmail</p>
-            <p id="images">Images</p>
-            <img id="apps" src="images/google_apps_logo.PNG" alt="Google apps" width="20" height="20">
-            <img id="account" src="images/google_account_logo.PNG" alt="Google Account" width="35" height="35">
+            <div id="gmail-image">
+                <p id="gmail">Gmail</p>
+                <p id="images">Images</p>
+            </div>
+            <div id="app-account">
+                <img id="apps" src="images/google_apps_logo.PNG" alt="Google apps" width="18" height="20">
+                <img id="account" src="images/google_account_logo.PNG" alt="Google Account" width="35" height="35">
+            </div>
         </div>
     </div>
 
@@ -54,7 +60,7 @@
         <div id="left-footer"> 
             <a href="">Advertising</a>
             <a href="">Business</a>
-            <a href="">How Search Works</a>
+            <a href="">How Search works</a>
         </div>
         <div id="right-footer"> 
             <a href="">Privacy</a>
