@@ -1,3 +1,5 @@
 Re-creation of the google homepage using HTML and CSS. 
 
-https://www.theodinproject.com/
+Live demo https://abecoup.github.io/google-homepage/
+
+Shoutout to https://www.theodinproject.com/
